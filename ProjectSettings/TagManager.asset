@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Balloon
+  - Jelly
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -39,6 +42,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BG
+    uniqueID: 3877423167
+    locked: 1
   - name: Default
     uniqueID: 0
     locked: 0
