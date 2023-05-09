@@ -12,9 +12,9 @@ public class Score : MonoBehaviour
     [SerializeField] public TextMeshProUGUI sceneTxt;
     [SerializeField] int level;
 
-    const int DEFAULT_POINTS = 3;
-    const int REDUCED_POINTS = 2;
-    private static float scoreThreshold = 4;
+    const int DEFAULT_POINTS = 4;
+    const int REDUCED_POINTS = 3;
+    private static float scoreThreshold = 6;
     static int tempScore = 0;
 
     // Start is called before the first frame update
@@ -46,12 +46,12 @@ public class Score : MonoBehaviour
             AdvanceLevel();
             if(SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("Level 2"))
             {
-                scoreThreshold = score + 8;
+                scoreThreshold = score + 9;
 
             } 
             else
             {
-                scoreThreshold = score + 4;
+                scoreThreshold = score + 6;
             }
             tempScore = 0;
         }
@@ -80,7 +80,7 @@ public class Score : MonoBehaviour
     public static void Reset()
     {
         score = 0;
-        scoreThreshold = 4;
+        scoreThreshold = 6;
     }
 
     public static void ResetScore()

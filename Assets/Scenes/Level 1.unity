@@ -1915,7 +1915,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 522537120}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.6, y: -2.54, z: -0.28678223}
+  m_LocalPosition: {x: -7.43, y: -2.57, z: -0.28678223}
   m_LocalScale: {x: 4.862334, y: 4.862334, z: 4.862334}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1953,7 +1953,6 @@ MonoBehaviour:
   scoreTxt: {fileID: 1135493548}
   sceneTxt: {fileID: 1970173995}
   level: 1
-  levelName: Level 1
 --- !u!1 &541559056
 GameObject:
   m_ObjectHideFlags: 0

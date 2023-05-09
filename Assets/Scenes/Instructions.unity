@@ -1025,7 +1025,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Goal:\n*Avoid Obstacles and Shoot the Watermelons Before They Disappear.
-    \n*Shooting them before they get too big is 3 points. otherwise, its 2 points."
+    \n*Shooting them before they get too big is 4 points. otherwise, its 3 points."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cff2b185af7294c2aae6083cd6180c26, type: 2}
   m_sharedMaterial: {fileID: -1162773884000859559, guid: cff2b185af7294c2aae6083cd6180c26, type: 2}
